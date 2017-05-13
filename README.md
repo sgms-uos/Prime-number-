@@ -1,0 +1,1 @@
+it is prime number programe that is implemented in c++
