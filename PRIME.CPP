@@ -3,17 +3,17 @@
 int main()
 {
   system("cls");
- int a,s,d;
+ int num,s,d;
  cout<<"Enter number=";
- cin>>a;
+ cin>>num;
  s=1;d=0;
- while(s<=a/2)
+ while(s<=num/2)
  {
   s++;
-  if(a%s==0)
+  if(num%s==0)
   {
     d=1;
-    s=a;
+    s=num;
   }
   else
    d=0;
